@@ -1,6 +1,6 @@
 [project]
 name = "packaging-tutorial-myaseen"
-version = "0.1.0"
+version = "0.2.0"
 description = "A simple test project to learn about Python packaging and distribution"
 authors = [
     { name = "Muhammad Yaseen", email = "myaseen.de@gmail.com"}
@@ -25,6 +25,7 @@ build-backend = "hatchling.build"
 [dependency-groups]
 dev = [
     "build>=1.5.0",
+    "pytest>=9.0.3",
     "twine>=6.2.0",
 ]
 
