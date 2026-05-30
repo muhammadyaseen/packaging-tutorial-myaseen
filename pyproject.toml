@@ -1,7 +1,7 @@
 [project]
 name = "packaging-tutorial-myaseen"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple test project to learn about Python packaging and distribution"
 authors = [
     { name = "Muhammad Yaseen", email = "myaseen.de@gmail.com"}
 ]
@@ -29,6 +29,6 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/muhammadyaseen/packaging-tutorial-myaseen"
+Issues = "https://github.com/muhammadyaseen/packaging-tutorial-myaseen"
 
