@@ -7,7 +7,6 @@ on:
 
 jobs:
     tests:
-      environment: Test
       runs-on: ubunu-latest
       steps:
       - name: Checkout from PR branch  
